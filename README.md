@@ -72,5 +72,5 @@ python -m pytest -v
   - Conexão contínua dos registros reais de sono (HRV, FC de repouso e estágios) do Samsung Health / Health Connect para enriquecer o cruzamento Passos × Sono.
 - **v2 — Telemetria de Corrida & Clima**:
   - Coleta automatizada da API do **Strava** (distância, pace, GAP, FC, cadência, streams) via Python / GitHub Actions.
-  - Cruzamento com meteorologia horária real da API **Open-Meteo** usando as coordenadas da corrida ou fallback para **Campeche / Florianópolis** (`-27.6775, -48.4828`), incluindo Ponto de Orvalho (*Dew Point*), Temperatura Aparente e Vento.
+  - Cruzamento com meteorologia horária real da API **Open-Meteo** usando as coordenadas da corrida ou fallback para **Florianópolis**, incluindo Ponto de Orvalho (*Dew Point*), Temperatura Aparente e Vento.
   - Modelagem combinada de **ACWR (TRIMP & Volume via EWMA 7d/28d)**, **Impacto Térmico no Pace**, **Efficiency Factor** e **Prontidão Integrada (Sono + Passos + Carga de Treino)**.
